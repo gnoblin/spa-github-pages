@@ -13,7 +13,7 @@ export default function App() {
       <h1 style={s.title}>Single Page Apps for GitHub Pages</h1>
       <Interactive
         as="a"
-        href="https://github.com/rafrex/spa-github-pages"
+        href=`https://github.com/gnoblin/spa-github-pages`
         style={s.repoLink}
         {...s.link}
       >https://github.com/rafrex/spa-github-pages</Interactive>
@@ -31,7 +31,7 @@ export default function App() {
       <div style={s.creditLine}>
         <Interactive
           as="a"
-          href="http://www.rafaelpedicini.com"
+          href="www.google.com"
           interactiveChild
           focus={{}}
           touchActive={{}}
