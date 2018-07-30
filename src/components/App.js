@@ -13,7 +13,7 @@ export default function App() {
       <h1 style={s.title}>Single Page Apps for GitHub Pages</h1>
       <Interactive
         as="a"
-        href=`https://github.com/gnoblin/spa-github-pages`
+        href="https://github.com/gnoblin/spa-github-pages"
         style={s.repoLink}
         {...s.link}
       >https://github.com/rafrex/spa-github-pages</Interactive>
