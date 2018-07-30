@@ -23,8 +23,8 @@ export default function App() {
       </nav>
 
       <Switch>
-        <Route exact path="/" component={Home} />
-        <Route path="/example" component={ExampleComponent} />
+        <Route exact path="/spa-github-pages/" component={Home} />
+        <Route path="/spa-github-pages/example" component={ExampleComponent} />
         <Route component={PageNotFound} />
       </Switch>
 
