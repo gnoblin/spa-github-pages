@@ -18,9 +18,9 @@ export default function App() {
       </nav>
 
       <Switch>
-        <Route exact path="/spa-github-pages/" component={Home} />
-        <Route path="/spa-github-pages/example" component={ExampleComponent} />
-        <Route path="/spa-github-pages/my-page1" component={MyPage1} />
+        <Route exact path="/spa-github-pages/" component={MyPage1} />
+        <Route path="/spa-github-pages/example/" component={ExampleComponent} />
+        <Route path="/spa-github-pages/my-page1/" component={Home} />
         <Route component={PageNotFound} />
       </Switch>
 
