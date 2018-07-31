@@ -16,7 +16,7 @@ const ExamplePageText = () => (
 export default function ExampleComponent() {
   return (
     <Switch>
-      <Route
+      <Route basename="/spa-github-pages/"
         exact path="/spa-github-pages/example/two-deep"
         render={({ location }) => (
           <div>
