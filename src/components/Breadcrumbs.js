@@ -21,9 +21,9 @@ function BreadcrumbsItem({ match }) {
         {...s.link}
         to={to}
       >{title || 'Page Not Found'}</Interactive>
-      {!match.isExact && title && ' / '}
+      {!match.isExact && title && ' /spa-github-pages/ '}
       {title &&
-        <Route path={`${match.url === '/' ? '' : match.url}/:path`} component={BreadcrumbsItem} />
+        <Route path={`${match.url === '/spa-github-pages/' ? '' : match.url}/:path`} component={BreadcrumbsItem} />
       }
     </span>
   );
