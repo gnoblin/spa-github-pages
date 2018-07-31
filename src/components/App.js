@@ -18,6 +18,10 @@ export default function App() {
         {...s.link}
       >https://gnoblin.github.io/spa-github-pages/</Interactive>
 
+      <nav style={s.breadcrumbs}>
+        <Breadcrumbs />
+      </nav>
+
       <Switch>
         <Route exact path="/spa-github-pages/" component={Home} />
         <Route path="/spa-github-pages/example" component={ExampleComponent} />
