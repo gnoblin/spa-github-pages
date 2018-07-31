@@ -10,13 +10,8 @@ import s from '../styles/app.style';
 export default function App() {
   return (
     <div style={s.root}>
+      
       <h1 style={s.title}>SPA Routing WIP</h1>
-      <Interactive
-        as="a"
-        href="https://gnoblin.github.io/spa-github-pages/"
-        style={s.repoLink}
-        {...s.link}
-      >https://gnoblin.github.io/spa-github-pages/</Interactive>
 
       <nav style={s.breadcrumbs}>
         {/*<Breadcrumbs />*/}
