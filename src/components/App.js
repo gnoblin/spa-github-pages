@@ -20,7 +20,7 @@ export default function App() {
         <Route exact path="/spa-github-pages/" component={Home} />
         <Route exact path="/spa-github-pages/example/" component={MyPage1} />
         <Route path="/spa-github-pages/my-page1/" component={MyPage1} />
-        <Route component={PageNotFound} />
+        <Route component={MyPage1} />
       </Switch>
 
      
