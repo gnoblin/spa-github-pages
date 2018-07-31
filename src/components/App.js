@@ -19,7 +19,7 @@ export default function App() {
       >https://gnoblin.github.io/spa-github-pages/</Interactive>
 
       <nav style={s.breadcrumbs}>
-        <Breadcrumbs />
+        {/*<Breadcrumbs />*/}
       </nav>
 
       <Switch>
