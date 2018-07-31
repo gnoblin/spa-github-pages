@@ -9,7 +9,7 @@ export default function App() {
   return (
     <div>
       
-      <h1>SPA Routing WIP</h1>
+      <h1>SPA Routing WIP f001</h1>
 
       url:{location.pathname}
 
