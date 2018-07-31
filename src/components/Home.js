@@ -12,14 +12,14 @@ export default function Home() {
   return (
     <div>
      
-      <div style={s.pageLinkContainer}>
+      <div>
         <Interactive
           as={Link}
           {...s.link}
           to="/spa-github-pages/example"
         >Example page</Interactive>
       </div>
-      <div style={s.pageLinkContainer}>
+      <div>
         <Interactive
           as={Link}
           {...s.link}
