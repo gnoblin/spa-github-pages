@@ -13,6 +13,8 @@ export default function App() {
       
       <h1>SPA Routing WIP</h1>
 
+{location.pathname}
+
       <nav>
         {/*<Breadcrumbs />*/}
       </nav>
