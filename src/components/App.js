@@ -10,7 +10,7 @@ import s from '../styles/app.style';
 export default function App() {
   return (
     <div style={s.root}>
-      <h1 style={s.title}>Single Page Apps v2 for GitHub Pages</h1>
+      <h1 style={s.title}>SPA Routing WIP</h1>
       <Interactive
         as="a"
         href="https://gnoblin.github.io/spa-github-pages/"

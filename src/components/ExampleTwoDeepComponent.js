@@ -38,7 +38,7 @@ export default function ExampleTwoDeepComponent({ location }) {
       <div style={s.lineContainer}>
         <Interactive
           as={Link}
-          to={`/example/two-deep${queryString}${hashFragment}`}
+          to={`/spa-github-pages/example/two-deep${queryString}${hashFragment}`}
           {...s.link}
         >{linkText}</Interactive>
       </div>
