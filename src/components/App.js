@@ -2,8 +2,7 @@ import React from 'react';
 import Interactive from 'react-interactive';
 import { Switch, Route } from 'react-router-dom';
 import Home from './Home';
-import ExampleComponent from './ExampleComponent';
-import PageNotFound from './PageNotFound';
+
 
 export default function App() {
   return (
@@ -19,7 +18,7 @@ export default function App() {
 
       <Switch>
         <Route exact path="/spa-github-pages/" component={Home} />
-        <Route exact path="/spa-github-pages/example/" component={ExampleComponent} />
+        <Route exact path="/spa-github-pages/example/" component={MyPage1} />
         <Route path="/spa-github-pages/my-page1/" component={MyPage1} />
         <Route component={PageNotFound} />
       </Switch>
