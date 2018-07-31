@@ -5,15 +5,13 @@ import Home from './Home';
 import ExampleComponent from './ExampleComponent';
 import PageNotFound from './PageNotFound';
 
-import s from '../styles/app.style';
-
 export default function App() {
   return (
     <div>
       
       <h1>SPA Routing WIP</h1>
 
-{location.pathname}
+      url:{location.pathname}
 
       <nav>
         {/*<Breadcrumbs />*/}
